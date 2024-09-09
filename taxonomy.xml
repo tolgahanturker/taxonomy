@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taxonomy version="1.0">
+  <facet name="Category">
+    <term id="cat1" label="Science" />
+    <term id="cat2" label="Technology" />
+  </facet>
+  <facet name="Type">
+    <term id="type1" label="Research Article" />
+    <term id="type2" label="Blog Post" />
+  </facet>
+  <facet name="Audience">
+    <term id="aud1" label="Professionals" />
+    <term id="aud2" label="Students" />
+  </facet>
+</taxonomy>
