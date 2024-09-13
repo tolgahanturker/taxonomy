@@ -5,7 +5,7 @@
 [![Contributors](https://img.shields.io/github/contributors/username/faceted-taxonomy-project)](https://github.com/username/faceted-taxonomy-project/graphs/contributors)
 -->
 
-Welcome to the Faceted Error Taxonomy project! This project aims to build and maintain a comprehensive faceted error taxonomy for errors in language use that can be used to utilize to create both fine- and coarse-grained error annotation schemes depending on specific requirements.
+Welcome to the Faceted Error Taxonomy project! This project aims to build and maintain a comprehensive faceted error taxonomy for errors in language use which can be used to utilize to create both fine- and coarse-grained error annotation schemes depending on specific requirements.
 
 Classification of errors in language use plays a crucial role in language learning \& teaching, error analysis studies, and language technology development.
 However, there is no standard and inclusive error classification method agreed upon among different disciplines, which causes repetition of similar efforts and a barrier in front of a common understanding in the field.
