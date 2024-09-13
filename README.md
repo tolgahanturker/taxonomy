@@ -1,10 +1,7 @@
 # Faceted Taxonomy Project
 
-<!---
-your comment goes here
-and here
-
 [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)]([https://opensource.org/licenses/MIT](https://opensource.org/license/gpl-3-0))
+<!---
 [![Contributors](https://img.shields.io/github/contributors/username/faceted-taxonomy-project)](https://github.com/username/faceted-taxonomy-project/graphs/contributors)
 -->
 
