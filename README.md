@@ -1,6 +1,10 @@
 # Faceted Taxonomy Project
 
-[//]: [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)]([https://opensource.org/licenses/MIT](https://opensource.org/license/gpl-3-0))
+<!---
+your comment goes here
+and here
+-->
+[![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)]([https://opensource.org/licenses/MIT](https://opensource.org/license/gpl-3-0))
 [![Contributors](https://img.shields.io/github/contributors/username/faceted-taxonomy-project)](https://github.com/username/faceted-taxonomy-project/graphs/contributors)
 
 Welcome to the Faceted Taxonomy Project! This project aims to build and maintain a comprehensive faceted taxonomy that can be used for [describe the purpose, e.g., organizing content, categorizing information, etc.].
