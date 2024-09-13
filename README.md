@@ -10,11 +10,7 @@ Welcome to the Faceted Error Taxonomy project! This project aims to build and ma
 Classification of errors in language use plays a crucial role in language learning \& teaching, error analysis studies, and language technology development.
 However, there is no standard and inclusive error classification method agreed upon among different disciplines, which causes repetition of similar efforts and a barrier in front of a common understanding in the field.
 This project is based on the article (!!citation here!!) that brings a new and holistic perspective to error classifications and annotation schemes across different fields (i.e., learner corpora research, error analysis, grammar error correction, and machine translation), all serving the same purpose but employing different methods and approaches.
-We believe that the proposed taxonomy based on the principles of universality and diversity will address the emerging need for a common framework in error annotation.
-
-## What is a Faceted Taxonomy?
-
-A faceted taxonomy is a system of classification that allows multiple classifications for each item. Each facet represents a dimension of the item, such as category, type, or function.
+We believe that this project as being based on the principles of universality and diversity will address the emerging need for a common framework in error annotation.
 
 ## Project Structure
 
