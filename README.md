@@ -1,4 +1,4 @@
-# Faceted Taxonomy Project
+# Error Taxonomy
 
 [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)]([https://opensource.org/licenses/MIT](https://opensource.org/license/gpl-3-0))
 <!---
