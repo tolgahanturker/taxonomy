@@ -33,7 +33,7 @@ We welcome contributions from everyone! Please read our [CONTRIBUTING.md](CONTRI
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
