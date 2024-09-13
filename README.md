@@ -1,11 +1,16 @@
-# Error Taxonomy
+# Faceted Error Taxonomy
 
 [![License: GNU](https://img.shields.io/badge/License-GNU-yellow.svg)]([https://opensource.org/licenses/MIT](https://opensource.org/license/gpl-3-0))
 <!---
 [![Contributors](https://img.shields.io/github/contributors/username/faceted-taxonomy-project)](https://github.com/username/faceted-taxonomy-project/graphs/contributors)
 -->
 
-Welcome to the Faceted Taxonomy Project! This project aims to build and maintain a comprehensive faceted taxonomy that can be used for [describe the purpose, e.g., organizing content, categorizing information, etc.].
+Welcome to the Faceted Error Taxonomy project! This project aims to build and maintain a comprehensive faceted error taxonomy for errors in language use that can be used to utilize to create both fine- and coarse-grained error annotation schemes depending on specific requirements.
+
+Classification of errors in language use plays a crucial role in language learning \& teaching, error analysis studies, and language technology development.
+However, there is no standard and inclusive error classification method agreed upon among different disciplines, which causes repetition of similar efforts and a barrier in front of a common understanding in the field.
+This project is based on the article (!!citation here!!) that brings a new and holistic perspective to error classifications and annotation schemes across different fields (i.e., learner corpora research, error analysis, grammar error correction, and machine translation), all serving the same purpose but employing different methods and approaches.
+We believe that the proposed taxonomy based on the principles of universality and diversity will address the emerging need for a common framework in error annotation.
 
 ## What is a Faceted Taxonomy?
 
