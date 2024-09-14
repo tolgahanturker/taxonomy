@@ -1,15 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<taxonomy version="1.0">
-  <facet name="Category">
-    <term id="cat1" label="Science" />
-    <term id="cat2" label="Technology" />
+<taxonomy name="error" version="1.0">
+  <facet id="ID" name="Identifier" dependency="none" />
+  <facet id="MF" name="Morphological Feature">
+    <subfacets>
+      <subfacet id="POS" name="PartOfSpeech" dependency="UDv2">
+        <value id="ADJ" name="adjactive" />
+        <value id="ADP" name="adposition" />
+        <value id="ADV" name="adverb" />
+        <value id="AUX" name="auxiliary" />
+        <value id="CCONJ" name="coordinatingConjunction" />
+        <value id="DET" name="determiner" />
+        <value id="INTJ" name="interjection" />
+        <value id="NOUN" name="noun" />
+        <value id="NUM" name="numeral" />
+        <value id="PART" name="particle" />
+        <value id="PRON" name="pronoun" />
+        <value id="PROPN" name="properNoun" /> 
+        <value id="PUNCT" name="punctuation" />
+        <value id="SCONJ" name="subordinatingConjunction" />
+        <value id="SYM" name="symbol" />
+        <value id="VERB" name="verb" />
+        <value id="X" name="other" />
+      </subfacet>
+      <subfacet id="IF" name="InflectionalFeature" dependency="UDv2">
+        <value id="ANI" name="animacy" />
+        <value id="ASP" name="aspect" />
+        <value id="CAS" name="case" />
+        <value id="CLU" name="clusivity" />
+        <value id="DEF" name="definite" />
+        <value id="DEG" name="degree" />
+        <value id="DEI" name="deixis" />
+        <value id="DEIR" name="deixisRef" />
+        <value id="EVI" name="evident" />
+        <value id="GEN" name="gender" />
+        <value id="MOD" name="mood" />
+        <value id="NOUC" name="nounClass" />
+        <value id="NUM" name="number" />
+        <value id="PER" name="person" />
+        <value id="POL" name="polarity" />
+        <value id="POLI" name="polite" />
+        <value id="TEN" name="tense" />
+        <value id="VF" name="verbForm" />
+        <value id="VOI" name="voice" />
+      </subfacet>
+      <subfacet id="LF" name="LexicalFeature" dependency="UDv2">
+        <value id="ABBR" name="abbreviation" />
+        <value id="FORW" name="foreignWord" />
+        <value id="NUMT" name="numeralType" />
+        <value id="POSS" name="possessive" />
+        <value id="PRONT" name="pronominalType" />
+        <value id="REF" name="reflexive" />
+      </subfacet>
+    </subfacets>
   </facet>
-  <facet name="Type">
-    <term id="type1" label="Research Article" />
-    <term id="type2" label="Blog Post" />
+  <facet id="UNI" name="Unit" dependency="none">
+    <value id="GRA" name="grapheme" />
+    <value id="AFF" name="affix" />
+    <value id="LEM" name="lemma" />
+    <value id="WOR" name="word" />
+    <value id="MWE" name="multiwordExpression" />
+    <value id="PHR" name="phrase" />
+    <value id="SEN" name="sentence" />
   </facet>
-  <facet name="Audience">
-    <term id="aud1" label="Professionals" />
-    <term id="aud2" label="Students" />
+  <facet id="PHE" name="Phenomenon" dependency="none">
+    <value id="OMI" name="omission" />
+    <value id="ADD" name="addition" />
+    <value id="MISF" name="misformation" />
+    <value id="MISO" name="misordering" />
+    <value id="UNT" name="untranslated" />
+    <value id="AMB" name="ambiguous" />
+  </facet>
+  <facet id="LEV" name="LinguisticLevel" dependency="none">
+    <value id="PHO" name="phonology" />
+    <value id="ORTH" name="orthography" />
+    <value id="GRA" name="grammar" />
+    <value id="SEM" name="semantics" />
+    <value id="PRAG" name="pragmatics" />
+    <value id="DIS" name="discourse" />
+    <value id="SOC" name="sociolinguistics" />
+  </facet>
+  <facet id="MD" name="Metadata" dependency="none">
+    <subfacets>
+      <subfacet id="LANG" name="language" dependency="ISO639-3" allValuesAccepted="true" />
+      <subfacet id="ERRM" name="errorMaker" dependency="none">
+        <value id="HS" name="heritageSpeaker" />
+        <value id="NS" name="nativeSpeaker" />
+        <value id="NNS" name="nonNativeSpeaker" />
+        <value id="TOO" name="tool" />
+      </subfacet>
+      <subfacet id="GEN" name="genre" dependency="none">
+        <value id="ESS" name="essay" />
+        <value id="FORL" name="formalLetter" />
+        <value id="FORP" name="forumPost" />
+        <value id="INFL" name="informalLetter" />
+        <value id="INTV" name="interview" />
+      </subfacet>
+      <subfacet id="MED" name="medium" dependency="none">
+        <value id="WRI" name="written" />
+        <value id="SPO" name="spoken" />
+      </subfacet>
+    </subfacets>
   </facet>
 </taxonomy>
