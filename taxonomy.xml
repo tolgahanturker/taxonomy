@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <taxonomy name="error" version="1.0">
   <facet id="ID" name="Identifier" dependency="none" />
-  <facet id="MF" name="Morphological Feature">
+  <facet id="MF" name="MorphologicalFeature">
     <subfacets>
       <subfacet id="POS" name="PartOfSpeech" dependency="UDv2">
         <value id="ADJ" name="adjactive" />
@@ -70,7 +70,7 @@
     <value id="UNT" name="untranslated" />
     <value id="AMB" name="ambiguous" />
   </facet>
-  <facet id="LEV" name="LinguisticLevel" dependency="none">
+  <facet id="LEV" name="Level" dependency="none" multiValued="true">
     <value id="PHO" name="phonology" />
     <value id="ORTH" name="orthography" />
     <value id="GRA" name="grammar" />
@@ -81,23 +81,35 @@
   </facet>
   <facet id="MD" name="Metadata" dependency="none">
     <subfacets>
-      <subfacet id="LANG" name="language" dependency="ISO639-3" allValuesAccepted="true" />
-      <subfacet id="ERRM" name="errorMaker" dependency="none">
-        <value id="HS" name="heritageSpeaker" />
-        <value id="NS" name="nativeSpeaker" />
-        <value id="NNS" name="nonNativeSpeaker" />
-        <value id="TOO" name="tool" />
-      </subfacet>
-      <subfacet id="GEN" name="genre" dependency="none">
+      <subfacet id="LANG" name="Language" dependency="ISO639-3" allValuesFromDependencyAccepted="true" />
+      <subfacet id="GEN" name="Genre" dependency="none">
         <value id="ESS" name="essay" />
         <value id="FORL" name="formalLetter" />
         <value id="FORP" name="forumPost" />
         <value id="INFL" name="informalLetter" />
         <value id="INTV" name="interview" />
       </subfacet>
-      <subfacet id="MED" name="medium" dependency="none">
+      <subfacet id="MED" name="Medium" dependency="none">
         <value id="WRI" name="written" />
         <value id="SPO" name="spoken" />
+      </subfacet>
+      <subfacet id="ERRM" name="ErrorMaker" dependency="none">
+        <value id="HS" name="heritageSpeaker" linkedFacet="DF" />
+        <value id="NS" name="nativeSpeaker" linkedFacet="DF" />
+        <value id="NNS" name="nonNativeSpeaker" linkedFacet="DF" />
+        <value id="TOO" name="tool" linkedFacet="T" />
+      </subfacet>
+      <subfacet id="DF" name="DemographicFeature">
+        <value id="AGE" name="age" />
+        <value id="EL" name="educationLevel" />
+        <value id="FLA" name="firstLanguage" dependency="LANG" />
+        <value id="G" name="gender" />
+        <value id="PL" name="proficiencyLevel" dependency="CEFR" />
+        <value id="FL" name="foreignLanguages" dependency="LANG" />
+      </subfacet>
+      <subfacet id="T" name="Tool">
+        <value id="GEC" name="grammarErrorCorrection" />
+        <value id="MT" name="machineTranslation" />
       </subfacet>
     </subfacets>
   </facet>
