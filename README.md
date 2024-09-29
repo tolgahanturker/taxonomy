@@ -37,4 +37,4 @@ This project is licensed under the GNU License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-If you have any questions or suggestions, feel free to open an issue or reach out to us at [your-email@example.com].
+If you have any questions or suggestions, feel free to open an issue or reach out to us at [faceted-error-taxonomy@outlook.com].
